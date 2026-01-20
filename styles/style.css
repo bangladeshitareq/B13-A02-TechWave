@@ -60,3 +60,49 @@
 
 }
     /* about style end  */
+
+  /* Why Choose style Start */
+
+#bg-new{
+    background: rgba(35, 14, 61, 1);
+
+}
+
+ /* Why Choose style end */
+
+
+         /*  Meet The Host area style start  */
+
+        .social-circle {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            border: 1.5px solid #9D35FF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #9D35FF;
+            transition: 0.3s;
+        }
+        .social-circle:hover {
+            background: #9D35FF;
+            color: white; }
+
+        /*  Meet The Host area style end  */
+
+         /*  footer area style start  */
+        /* Background Images */
+         #footer-section {
+            background-image: url('../assets/footer-bg.png');
+            background-size: cover;
+            background-position: top center;
+            background-repeat: no-repeat;
+        }
+
+
+        .group:hover i {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+}
+
+    /*  footer area style end  */
