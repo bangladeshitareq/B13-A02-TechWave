@@ -23,4 +23,32 @@
         }
 
 
-       
+
+
+
+        /* Header area style Start */
+
+        /* Background Images */
+        .hero-section {
+            background-image: linear-gradient(rgba(15, 7, 33, 0.4), rgba(15, 7, 33, 0.8)), url('../assets/hero-bg.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .mic-circle {
+            background: linear-gradient(180deg, #FFD600 0%, #FF3596 50%, #9D35FF 100%);
+
+            box-shadow: 0 0 40px rgba(157, 53, 255, 0.3);
+        }
+
+        .pulse {
+             animation: pulse-animation 2s infinite;
+            }
+        @keyframes pulse-animation {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        /* Header area style end */
