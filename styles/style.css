@@ -1,0 +1,26 @@
+
+        body {
+            background: #110826;
+            font-family: 'Inter', sans-serif;
+            color: white;
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+
+
+
+
+             }
+
+        /* Gradients & Animations */
+        .btn-gradient {
+            background: linear-gradient(90deg, #FF3596 0%, #9D35FF 100%);
+            transition: 0.3s;
+        }
+        .btn-gradient:hover {
+
+            opacity: 0.9; transform: scale(1.05);
+        }
+
+
+       
