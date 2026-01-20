@@ -29,7 +29,7 @@
         /* Header area style Start */
 
         /* Background Images */
-        .hero-section {
+        #hero-section {
             background-image: linear-gradient(rgba(15, 7, 33, 0.4), rgba(15, 7, 33, 0.8)), url('../assets/hero-bg.png');
             background-size: cover;
             background-position: center;
@@ -52,3 +52,11 @@
         }
 
         /* Header area style end */
+
+         /* about style start  */
+        hr{
+    border: 1px solid var(--#FFFFFF, rgba(255, 255, 255, 1));
+    opacity: 0.1;
+
+}
+    /* about style end  */
